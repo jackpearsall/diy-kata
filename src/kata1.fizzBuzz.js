@@ -1,6 +1,6 @@
 const fizzBuzz = (number) => {
 const isDivisibleByThree = (number % 3) === 0;
-const isDivisibleByFive = (number % 5) ===0;
+const isDivisibleByFive = (number % 5) === 0;
 
     if (isDivisibleByThree && isDivisibleByFive) {
         return 'FizzBuzz';
